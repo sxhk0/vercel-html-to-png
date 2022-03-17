@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "scripts": {
+        "deploy": "vercel --prod"
+    },
+    "devDependencies": {
+        "@vercel/node": "^1.13.0",
+        "puppeteer": "^10.1.0",
+        "vercel": "^24.0.0"
+    },
+    "dependencies": {
+        "chrome-aws-lambda": "^10.1.0",
+        "puppeteer-core": "^10.1.0"
+    }
+}
